@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('/Assets/images/microphone-642670_1280.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #000;
+  }
+  /* NAVIGATION STYLES */
+nav {
+    background-color: black;
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-top: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2em;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: yellow;
+  }
+  
+  
+  header {
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+    margin-top: 0.5in;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+  }
+  
+  header h1 {
+    font-size: 3em;
+    margin: 0;
+  }
+  
+  header h2 {
+    font-size: 1.5em;
+    margin: 0;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    padding: 1em;
+  }
+  
+  .content-box {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 2em;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    text-align: center;
+  }
+  
+  footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 3em;
+  }
+  
